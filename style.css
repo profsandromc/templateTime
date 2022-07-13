@@ -1,13 +1,5 @@
 *{
     padding: 0;
-<<<<<<< Updated upstream
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-footer{
-    background-color: aquamarine;
-}
-=======
     margin: 0;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -72,4 +64,3 @@ footer a:hover{
         margin-bottom: 10px;
     }
   }
->>>>>>> Stashed changes
