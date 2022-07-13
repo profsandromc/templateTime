@@ -1,9 +1,75 @@
 *{
-    margin: 0;
     padding: 0;
+<<<<<<< Updated upstream
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 footer{
     background-color: aquamarine;
 }
+=======
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* Footer */
+footer{
+    width: 100%;
+    height: auto;
+    display: block;
+    float: left;
+    background-color: hotpink;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer div{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+}
+footer div section{
+    width: 30%;
+    height: auto;
+    float: left;
+}
+footer div section:nth-child(2){
+    margin-left: 5%;
+    margin-right: 5%;
+}
+footer div section img{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer a{
+    width: 100px;
+    height: 25px;
+    display: block;
+    background-color: yellowgreen;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+footer a:hover{
+    background-color: tomato;
+}
+
+@media (max-width: 800px) {
+    footer div {
+      flex-direction: column;
+    }
+    footer div section{
+        width: 100%;
+    }
+    footer div section:nth-child(2){
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+  }
+>>>>>>> Stashed changes
