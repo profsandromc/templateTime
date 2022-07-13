@@ -1,5 +1,26 @@
 *{
-    margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+/* MAIN */
+main{
+    width: 100%;
+    display: block;
+    float: left;
+    height: auto;
+    background-color: rgb(223, 228, 227);
+}
+main article{
+    width: 80%;
+    margin-left: 10%;
+}
+main * {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+main img{
+    width: 100%;
 }
